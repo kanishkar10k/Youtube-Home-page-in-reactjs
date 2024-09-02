@@ -1,0 +1,27 @@
+.video-grid {
+    margin-left: 220px; /* To offset the fixed navbar */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .video-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .video-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-card h4 {
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+    background-color: white;
+  }
+  
